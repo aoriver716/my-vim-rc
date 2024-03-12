@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Copying vim configuration..."
+cp ./my-vim-rc.vim ~/.vimrc
+echo "Done."
