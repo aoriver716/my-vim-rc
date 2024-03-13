@@ -1,6 +1,9 @@
 scriptencoding utf-8
 set encoding=utf-8
 
+inoremap jk <ESC>
+let mapleader = "'"
+
 " Arguably the most important setting.
 set relativenumber
 set number
@@ -13,3 +16,8 @@ set tabstop=4 softtabstop=0
 " Show ugly whitespace.
 set list
 set listchars=tab:└─→,trail:♢,extends:>,precedes:<,nbsp:·
+
+" Search Settings
+set ignorecase
+set hlsearch
+set incsearch
