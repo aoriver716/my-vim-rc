@@ -3,6 +3,7 @@ set encoding=utf-8
 
 " Arguably the most important setting.
 set relativenumber
+set number
 
 " Second most important settings.
 set shiftwidth=4 smarttab
