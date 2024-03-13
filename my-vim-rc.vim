@@ -21,3 +21,6 @@ set listchars=tab:└─→,trail:♢,extends:>,precedes:<,nbsp:·
 set ignorecase
 set hlsearch
 set incsearch
+
+" Scroll Settings
+set scrolloff=14
