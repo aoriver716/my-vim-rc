@@ -1,8 +1,8 @@
 scriptencoding utf-8
 set encoding=utf-8
 
-inoremap jk <ESC>
 let mapleader = "'"
+inoremap jk <ESC>
 
 syntax on
 
@@ -21,3 +21,8 @@ set hlsearch
 set incsearch
 
 set scrolloff=14
+
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+nnoremap <C-h> :tabprevious<CR>
+nnoremap <C-l> :tabnext<CR>
