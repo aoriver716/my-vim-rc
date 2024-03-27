@@ -12,6 +12,8 @@ set number
 set shiftwidth=4 smarttab
 set expandtab
 set tabstop=4 softtabstop=0
+set ai
+set si
 
 set list
 set listchars=tab:└─→,trail:♢,extends:>,precedes:<,nbsp:·
@@ -37,6 +39,10 @@ set wildmenu
 
 set ruler
 
-"set backspace=eol,start,indent
-
 set lazyredraw
+
+map <space> /
+"map <C-space> ?
+
+set laststatus=2
+set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
