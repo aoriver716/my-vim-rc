@@ -26,3 +26,17 @@ nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 nnoremap <C-h> :tabprevious<CR>
 nnoremap <C-l> :tabnext<CR>
+
+set autoread
+au FocusGained,BufEnter * silent! checktime
+
+set so=7
+
+set wildmenu
+"set wildignore *.o,*~,*.pyc,*/.git/*,*/.hg/*,*/.svn/*
+
+set ruler
+
+"set backspace=eol,start,indent
+
+set lazyredraw
