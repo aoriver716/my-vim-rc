@@ -55,7 +55,7 @@ process_command_line_arguments "$@"
 if $print_usage; then
     echo "USAGE: $(basename $0) [-f|-b BACKUP] [-h]"
     echo "  -f           Replace any existing .vimrc file."
-    echo "  -b \$BACKUP  If a .vimrc file already exists, then rename/move it to \$BACKUP."
+    echo "  -b BACKUP  If a .vimrc file already exists, then rename/move it to BACKUP."
 
     if ! $arguments_valid; then
         exit 1
